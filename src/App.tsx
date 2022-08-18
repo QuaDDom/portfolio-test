@@ -1,4 +1,3 @@
-import React from "react";
 import "./App.css";
 import { createTheme, NextUIProvider } from "@nextui-org/react";
 import { ThemeProvider as NextThemesProvider } from "next-themes";

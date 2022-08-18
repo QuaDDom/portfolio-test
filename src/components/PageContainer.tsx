@@ -6,6 +6,7 @@ import Projects from "./Sections/Projects";
 import { Cursor } from "react-creative-cursor";
 import { ScrollerMotion } from "scroller-motion";
 import { useTheme } from "@nextui-org/react";
+import "./PageContainer.scss";
 
 export default function PageContainer() {
   const { theme, isDark } = useTheme();
@@ -16,11 +17,11 @@ export default function PageContainer() {
         isGelly={true}
         cursorBackgrounColor={isDark ? "#fff" : "#000"}
         cursorInnerColor={"#ffffff"}
-        cursorSize={25}
-        animationDuration={0.5}
+        cursorSize={23}
+        animationDuration={0.8}
         sizeAnimationDuration={1.5}
       />
-      <main>
+      <main className="mainContainer" data-cursor-exclusion>
         <ScrollerMotion>
           <Intro />
           <About />
