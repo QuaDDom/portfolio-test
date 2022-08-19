@@ -5,5 +5,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Averta-Semibold", "Averta CY W01";
+  font-family: "Averta-Semibold", "Averta CY W01" !important;
+}
+
+.section {
+  height: 100vh;
+  width: 100%;
+  padding: 5vh 13.5vw;
 }

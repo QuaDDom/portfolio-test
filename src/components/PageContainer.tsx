@@ -7,6 +7,7 @@ import { Cursor } from "react-creative-cursor";
 import { ScrollerMotion } from "scroller-motion";
 import { useTheme } from "@nextui-org/react";
 import "./PageContainer.scss";
+import Nav from "./Nav/Nav";
 
 export default function PageContainer() {
   const { theme, isDark } = useTheme();
@@ -23,6 +24,7 @@ export default function PageContainer() {
       />
       <main className="mainContainer" data-cursor-exclusion>
         <ScrollerMotion>
+          <Nav />
           <Intro />
           <About />
           <Projects />
