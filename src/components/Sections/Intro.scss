@@ -1,0 +1,20 @@
+.intro {
+  .welcome {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 10vh;
+    .text {
+      line-height: 145px;
+      &.name {
+        -webkit-text-stroke: 0.5px #fff;
+        color: transparent;
+        transition: 0.3s;
+      }
+      &.name:hover {
+        color: #fff;
+      }
+    }
+  }
+}

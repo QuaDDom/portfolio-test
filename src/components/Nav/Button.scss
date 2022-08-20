@@ -4,6 +4,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 800;
+  position: fixed;
+  right: 8vw;
+  top: 2.5vh;
   div {
     width: 45px;
     height: 45px;

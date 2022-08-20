@@ -22,9 +22,9 @@ export default function PageContainer() {
         animationDuration={0.8}
         sizeAnimationDuration={1.5}
       />
-      <main className="mainContainer" data-cursor-exclusion>
+      <main className="mainContainer">
+        <Nav />
         <ScrollerMotion>
-          <Nav />
           <Intro />
           <About />
           <Projects />
