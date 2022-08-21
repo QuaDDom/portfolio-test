@@ -7,13 +7,11 @@
     padding-bottom: 10vh;
     .text {
       line-height: 145px;
+      padding-bottom: 70px;
       &.name {
         -webkit-text-stroke: 0.5px #fff;
         color: transparent;
-        transition: 0.3s;
-      }
-      &.name:hover {
-        color: #fff;
+        margin-bottom: 100px;
       }
     }
   }
