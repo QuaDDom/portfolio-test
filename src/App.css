@@ -1,11 +1,12 @@
 @import url(//db.onlinewebfonts.com/c/ace51fb0e489a977bed8a67511865c11?family=Averta+CY+W01);
 @import url(//db.onlinewebfonts.com/c/774a72961dd69f90a772237432b1623e?family=Averta-Semibold);
+@import url(//db.onlinewebfonts.com/c/f036e81e6040acc6b43aabc036862d21?family=Averta-Regular);
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Averta-Semibold", "Averta CY W01" !important;
+  font-family: "Averta-Semibold", "Averta-Regular" !important;
 }
 
 .section {
