@@ -3,32 +3,52 @@ import { useTheme, Text } from "@nextui-org/react";
 import StaggerText from "../Text/StaggerText";
 import "./About.scss";
 import SkillCarrousel from "../Global/SkillCarrousel";
+import ScrollStaggerText from "../Text/ScrollStaggerText";
 
 export default function About() {
   return (
     <div className="about section">
       <div className="aboutMe">
-        <StaggerText
+        <ScrollStaggerText
           text={"About me"}
           fontSize={80}
           fontFamily={"'Averta-Semibold', serif"}
-          height={150}
+          height={130}
           duration={1}
-          stagger={80}
+          stagger={50}
+          triggerAfter={300}
         />
-        <Text size={35} className="aboutText">
-          I am a fullstack web developer passionate about design, creative
-          websites and new technologies.
-        </Text>
+        <ScrollStaggerText
+          text={`I am a fullstack web developer passionate about`}
+          fontSize={35}
+          fontFamily={"'Averta-Semibold', serif"}
+          height={50}
+          duration={1}
+          wordSpacing={0}
+          stagger={50}
+          triggerAfter={500}
+          className="aboutText"
+        />
+        <ScrollStaggerText
+          text={`design, creative websites and new technologies.`}
+          fontSize={35}
+          fontFamily={"'Averta-Semibold', serif"}
+          height={50}
+          duration={1}
+          stagger={50}
+          triggerAfter={1000}
+          className="aboutText"
+        />
       </div>
       <div className="skills">
-        <StaggerText
+        <ScrollStaggerText
           text={"Skills"}
           fontSize={80}
           fontFamily={"'Averta-Semibold', serif"}
-          height={150}
+          height={130}
           duration={1}
-          stagger={80}
+          stagger={50}
+          triggerAfter={1500}
         />
         {/* <SkillCarrousel /> */}
       </div>

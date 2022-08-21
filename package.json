@@ -19,6 +19,7 @@
     "react-creative-cursor": "^1.2.7",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "react-useonview": "^1.2.2",
     "sass": "^1.54.4",
     "scroller-motion": "^1.2.0",
     "three": "^0.143.0",

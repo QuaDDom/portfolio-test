@@ -83,7 +83,7 @@ const StaggerTextLetter = ({
 
 const StaggerTextReveal = ({
   text = "<text placeholder>",
-  triggerAfter = 0,
+  triggerAfter,
   height,
   fontSize,
   unit,
@@ -102,7 +102,7 @@ const StaggerTextReveal = ({
   useEffect(() => {
     setTimeout(() => {
       setAnimate(true);
-    }, triggerAfter);
+    }, triggerAfter || 0);
   });
 
   if (typeof text !== "string" || text.length === 0) {
