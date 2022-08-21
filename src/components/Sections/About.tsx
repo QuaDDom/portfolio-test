@@ -2,6 +2,7 @@ import React from "react";
 import { useTheme, Text } from "@nextui-org/react";
 import StaggerText from "../Text/StaggerText";
 import "./About.scss";
+import SkillCarrousel from "../Global/SkillCarrousel";
 
 export default function About() {
   return (
@@ -29,6 +30,7 @@ export default function About() {
           duration={1}
           stagger={80}
         />
+        {/* <SkillCarrousel /> */}
       </div>
     </div>
   );

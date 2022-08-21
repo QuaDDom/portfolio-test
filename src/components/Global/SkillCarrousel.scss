@@ -1,0 +1,37 @@
+.scrollSeparator {
+  height: 10vh;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 200px;
+  .wordsContainer {
+    display: block;
+    width: 200%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    animation: animation 10s linear infinite;
+    .word {
+      display: flex;
+      margin: 0 24.7px;
+      float: left;
+      transition: all 0.2s ease-out;
+      letter-spacing: 5px;
+    }
+  }
+  .wordSeparator {
+    float: left;
+    width: 50%;
+  }
+}
+
+@keyframes animation {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -100%;
+  }
+}
