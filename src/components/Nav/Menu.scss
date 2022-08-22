@@ -25,17 +25,29 @@
     z-index: 901;
     transform: translateX(100%);
     display: flex;
-    justify-content: space-between;
-    padding-top: 15vh;
+
+    justify-content: center;
     &.open {
       transition-delay: 0.2s;
       transform: translateX(0);
     }
-    .social {
-      width: 35%;
-    }
     .options {
-      width: 65%;
+      width: 50%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      padding-bottom: 8vh;
+      .option {
+        font-family: "Averta-Regular", sans-serif !important;
+      }
+      .social {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 70%;
+        height: 10vh;
+      }
     }
   }
   .transitionBg {

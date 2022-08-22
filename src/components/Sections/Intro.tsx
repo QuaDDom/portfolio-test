@@ -3,6 +3,7 @@ import { useTheme, Text } from "@nextui-org/react";
 import "./Intro.scss";
 import StaggerText from "../Text/StaggerText";
 import { Spacer } from "@nextui-org/react";
+import Spline from "@splinetool/react-spline";
 
 export default function Intro() {
   return (
@@ -39,6 +40,15 @@ export default function Intro() {
           triggerAfter={0.5}
         />
         <Spacer y={3.5} />
+      </div>
+      <div className="effect">
+        <div className="element">
+          <Spline
+            scene="https://prod.spline.design/jUdwEAQTq3-I644Z/scene.splinecode"
+            width={500}
+            height={500}
+          />
+        </div>
       </div>
     </div>
   );

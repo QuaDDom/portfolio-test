@@ -1,4 +1,6 @@
 .intro {
+  display: flex;
+  justify-content: space-between;
   .welcome {
     height: 100%;
     display: flex;
@@ -14,6 +16,18 @@
         margin-bottom: 100px;
         cursor: default;
       }
+    }
+  }
+  .effect {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15vh;
+    .element {
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   }
 }
