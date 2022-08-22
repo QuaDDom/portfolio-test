@@ -1,5 +1,5 @@
 import React from "react";
-import { useTheme, Text } from "@nextui-org/react";
+import { useTheme, Text, Spacer } from "@nextui-org/react";
 import StaggerText from "../Text/StaggerText";
 import "./About.scss";
 import SkillCarrousel from "../Global/SkillCarrousel";
@@ -11,18 +11,20 @@ export default function About() {
       <div className="aboutMe">
         <ScrollStaggerText
           text={"About me"}
-          fontSize={80}
+          fontSize={100}
           fontFamily={"'Averta-Semibold', serif"}
-          height={125}
+          height={150}
           duration={1.1}
           stagger={50}
           triggerAfter={300}
+          className="aboutTitle"
         />
+        <Spacer />
         <ScrollStaggerText
-          text={`I am a fullstack web developer passionate about`}
-          fontSize={35}
+          text={`I am a developer passionate about web development`}
+          fontSize={50}
           fontFamily={"'Averta-Semibold', serif"}
-          height={53}
+          height={75}
           duration={1.1}
           wordSpacing={0}
           stagger={50}
@@ -30,27 +32,25 @@ export default function About() {
           className="aboutText"
         />
         <ScrollStaggerText
-          text={`design, creative websites and new technologies.`}
-          fontSize={35}
+          text={`and design. I like to offer great usability and experience`}
+          fontSize={50}
           fontFamily={"'Averta-Semibold', serif"}
-          height={53}
+          height={75}
           duration={1.1}
           stagger={50}
           triggerAfter={1000}
           className="aboutText"
         />
-      </div>
-      <div className="skills">
         <ScrollStaggerText
-          text={"Skills"}
-          fontSize={80}
+          text={`to my clients and users`}
+          fontSize={50}
           fontFamily={"'Averta-Semibold', serif"}
-          height={130}
+          height={75}
           duration={1.1}
           stagger={50}
           triggerAfter={1500}
+          className="aboutText"
         />
-        {/* <SkillCarrousel /> */}
       </div>
     </div>
   );

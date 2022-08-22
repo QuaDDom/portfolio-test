@@ -32,7 +32,7 @@ export default function Intro() {
         />
         <Spacer y={2} />
         <StaggerText
-          text={"Fullstack Web Developer"}
+          text={"Web Developer & UI/UX Designer"}
           fontSize={32}
           fontFamily={"'Averta-Semibold', serif"}
           height={50}

@@ -1,6 +1,9 @@
 .about {
   .aboutMe {
     height: 50vh;
+    .aboutTitle {
+      padding-bottom: 50px;
+    }
     .aboutText {
       font-family: "Averta-Regular", sans-serif !important;
     }
