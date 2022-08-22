@@ -13,8 +13,8 @@ export default function About() {
           text={"About me"}
           fontSize={80}
           fontFamily={"'Averta-Semibold', serif"}
-          height={130}
-          duration={1}
+          height={125}
+          duration={1.1}
           stagger={50}
           triggerAfter={300}
         />
@@ -22,8 +22,8 @@ export default function About() {
           text={`I am a fullstack web developer passionate about`}
           fontSize={35}
           fontFamily={"'Averta-Semibold', serif"}
-          height={50}
-          duration={1}
+          height={53}
+          duration={1.1}
           wordSpacing={0}
           stagger={50}
           triggerAfter={500}
@@ -33,8 +33,8 @@ export default function About() {
           text={`design, creative websites and new technologies.`}
           fontSize={35}
           fontFamily={"'Averta-Semibold', serif"}
-          height={50}
-          duration={1}
+          height={53}
+          duration={1.1}
           stagger={50}
           triggerAfter={1000}
           className="aboutText"
@@ -46,7 +46,7 @@ export default function About() {
           fontSize={80}
           fontFamily={"'Averta-Semibold', serif"}
           height={130}
-          duration={1}
+          duration={1.1}
           stagger={50}
           triggerAfter={1500}
         />
