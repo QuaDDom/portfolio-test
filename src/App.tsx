@@ -34,11 +34,25 @@ const lightTheme = createTheme({
   type: "light",
   theme: {
     colors: {
-      background: "#FFF",
-      text: "#000",
-      primaryColor: "#ff4ecd",
-      grey: "#97b2c8",
-    }, // optional
+      background: "#121212",
+      primaryLight: "#fff",
+      primaryLightHover: "#fff",
+      primaryLightActive: "#fff",
+      primaryLightContrast: "#fff",
+      primary: "#ffffff",
+      primaryBorder: "#fff",
+      primaryBorderHover: "#fff",
+      primarySolidHover: "#ccc",
+      primarySolidContrast: "$white",
+      primaryShadow: "$blue500",
+      link: "#ccc",
+      linkHover: "#fff",
+      text: "#fff",
+      myDarkColor: "#ff4ecd",
+      grey: "#2a333e",
+    },
+    space: {},
+    fonts: {},
   },
 });
 
