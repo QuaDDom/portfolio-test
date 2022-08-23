@@ -1,6 +1,6 @@
 import React from "react";
 import "./Menu.scss";
-import { useTheme, Text, Switch } from "@nextui-org/react";
+import { useTheme, Text, Switch, Link } from "@nextui-org/react";
 import { useTheme as useNextTheme } from "next-themes";
 import { BsGithub } from "react-icons/bs";
 import { AiFillTwitterCircle } from "react-icons/ai";
@@ -43,15 +43,25 @@ export default function Menu({ isOpen }: Props) {
             Projects
           </Text>
           <div className="social">
-            <Text size={35} data-cursor-size={35} data-cursor-exlusion>
+            <Link
+              className="link"
+              href="https://github.com/QuaDDom"
+              target="_blank"
+              data-cursor-size={50}
+            >
               <BsGithub />
-            </Text>
-            <Text size={35} data-cursor-size={35} data-cursor-exlusion>
+            </Link>
+            <Link
+              className="link"
+              href="https://twitter.com/LeQuaddom"
+              target="_blank"
+              data-cursor-size={50}
+            >
               <AiFillTwitterCircle />
-            </Text>
-            <Text size={35} data-cursor-size={35} data-cursor-exlusion>
+            </Link>
+            <Link className="link" href="/" data-cursor-size={50}>
               <ImStackoverflow />
-            </Text>
+            </Link>
             {/* <Switch
               data-cursor-size="60px"
               checked={isDark}

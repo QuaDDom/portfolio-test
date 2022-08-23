@@ -7,8 +7,11 @@
     .aboutText {
       font-family: "Averta-Regular", sans-serif !important;
     }
-  }
-  .skills {
-    height: 50vh;
+    .info {
+      display: flex;
+      height: 50vh;
+      align-items: center;
+      justify-content: center;
+    }
   }
 }

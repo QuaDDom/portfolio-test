@@ -1,0 +1,25 @@
+.infoCard {
+  width: 25vw;
+  padding-right: 2vw;
+  .title {
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: 0.8s;
+    transition-delay: 0.3s;
+    &.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .description {
+    opacity: 0;
+    transform: translateY(-20px);
+    font-family: "Averta-Regular", sans-serif !important;
+    transition: 0.8s;
+    transition-delay: 0.3s;
+    &.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}

@@ -4,6 +4,7 @@ import StaggerText from "../Text/StaggerText";
 import "./About.scss";
 import SkillCarrousel from "../Global/SkillCarrousel";
 import ScrollStaggerText from "../Text/ScrollStaggerText";
+import InfoCard from "../About/InfoCard";
 
 export default function About() {
   return (
@@ -51,6 +52,29 @@ export default function About() {
           triggerAfter={1500}
           className="aboutText"
         />
+        <div className="info">
+          <InfoCard
+            title="UI/UX Design"
+            description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero magni
+            culpa explicabo dignissimos excepturi nemo impedit beatae alias
+            quibusdam perferendis."
+            delay={2000}
+          />
+          <InfoCard
+            title="Web development"
+            description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero magni
+            culpa explicabo dignissimos excepturi nemo impedit beatae alias
+            quibusdam perferendis."
+            delay={2350}
+          />
+          <InfoCard
+            title="Backend development"
+            description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero magni
+            culpa explicabo dignissimos excepturi nemo impedit beatae alias
+            quibusdam perferendis."
+            delay={2700}
+          />
+        </div>
       </div>
     </div>
   );
