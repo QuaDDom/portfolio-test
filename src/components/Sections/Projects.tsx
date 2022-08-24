@@ -2,6 +2,7 @@ import React from "react";
 import { useTheme, Text } from "@nextui-org/react";
 import ScrollStaggerText from "../Text/ScrollStaggerText";
 import ViewProjects from "../Projects/ViewProjects";
+import "./Projects.scss";
 
 export default function Projects() {
   return (

@@ -8,6 +8,7 @@ import { ScrollerMotion } from "scroller-motion";
 import { useTheme } from "@nextui-org/react";
 import "./PageContainer.scss";
 import Nav from "./Nav/Nav";
+import Contact from "./Sections/Contact";
 
 export default function PageContainer() {
   const { theme, isDark } = useTheme();
@@ -28,6 +29,7 @@ export default function PageContainer() {
           <Intro />
           <About />
           <Projects />
+          <Contact />
           <Footer />
         </ScrollerMotion>
       </main>

@@ -23,7 +23,7 @@ export default function About() {
         <Spacer />
         <ScrollStaggerText
           text={`I am a developer passionate about web development`}
-          fontSize={50}
+          fontSize={40}
           fontFamily={"'Averta-Semibold', serif"}
           height={75}
           duration={1.1}
@@ -34,7 +34,7 @@ export default function About() {
         />
         <ScrollStaggerText
           text={`and design. I like to offer great usability and experience`}
-          fontSize={50}
+          fontSize={40}
           fontFamily={"'Averta-Semibold', serif"}
           height={75}
           duration={1.1}
@@ -44,7 +44,7 @@ export default function About() {
         />
         <ScrollStaggerText
           text={`to my clients and users`}
-          fontSize={50}
+          fontSize={40}
           fontFamily={"'Averta-Semibold', serif"}
           height={75}
           duration={1.1}
