@@ -32,6 +32,7 @@ export default function InfoCard({ title, description, delay }: Props) {
         className={`description ${visible && "visible"}`}
         data-cursor-exclusion
         data-cursor-size={20}
+        color="#999"
       >
         {description}
       </Text>

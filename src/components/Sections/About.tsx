@@ -15,7 +15,7 @@ export default function About() {
           fontSize={100}
           fontFamily={"'Averta-Semibold', serif"}
           height={150}
-          duration={1.1}
+          duration={1}
           stagger={50}
           triggerAfter={300}
           className="aboutTitle"
@@ -25,8 +25,8 @@ export default function About() {
           text={`I am a developer passionate about web development`}
           fontSize={40}
           fontFamily={"'Averta-Semibold', serif"}
-          height={75}
-          duration={1.1}
+          height={59}
+          duration={1}
           wordSpacing={0}
           stagger={50}
           triggerAfter={500}
@@ -36,20 +36,20 @@ export default function About() {
           text={`and design. I like to offer great usability and experience`}
           fontSize={40}
           fontFamily={"'Averta-Semibold', serif"}
-          height={75}
-          duration={1.1}
+          height={59}
+          duration={1}
           stagger={50}
-          triggerAfter={1000}
+          triggerAfter={1500}
           className="aboutText"
         />
         <ScrollStaggerText
           text={`to my clients and users`}
           fontSize={40}
           fontFamily={"'Averta-Semibold', serif"}
-          height={75}
-          duration={1.1}
+          height={59}
+          duration={1}
           stagger={50}
-          triggerAfter={1500}
+          triggerAfter={2500}
           className="aboutText"
         />
         <div className="info">
@@ -58,21 +58,21 @@ export default function About() {
             description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero magni
             culpa explicabo dignissimos excepturi nemo impedit beatae alias
             quibusdam perferendis."
-            delay={2000}
+            delay={3000}
           />
           <InfoCard
             title="Web development"
             description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero magni
             culpa explicabo dignissimos excepturi nemo impedit beatae alias
             quibusdam perferendis."
-            delay={2350}
+            delay={3350}
           />
           <InfoCard
             title="Backend development"
             description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero magni
             culpa explicabo dignissimos excepturi nemo impedit beatae alias
             quibusdam perferendis."
-            delay={2700}
+            delay={3700}
           />
         </div>
       </div>

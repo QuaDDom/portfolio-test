@@ -1,11 +1,27 @@
 .navigation {
+  padding: 0vh 13.5vw;
+  height: 11.5vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 5vh 13.5vw;
   top: 0;
   left: 0;
   right: 0;
   z-index: 900;
   position: relative;
+  .spacer {
+    height: 100%;
+    .social {
+      display: flex;
+      height: 100%;
+      align-items: center;
+      justify-content: space-between;
+      padding-left: 20px;
+      width: 8vw;
+      .link {
+        color: #ccc;
+        font-size: 1.6em;
+      }
+    }
+  }
 }

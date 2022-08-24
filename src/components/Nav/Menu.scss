@@ -39,7 +39,11 @@
       flex-direction: column;
       padding-bottom: 8vh;
       .option {
+        transition: 0.4s;
         font-family: "Averta-Regular", sans-serif !important;
+        &:hover {
+          letter-spacing: 4px;
+        }
       }
       .social {
         display: flex;

@@ -42,34 +42,7 @@ export default function Menu({ isOpen }: Props) {
           >
             Projects
           </Text>
-          <div className="social">
-            <Link
-              className="link"
-              href="https://github.com/QuaDDom"
-              target="_blank"
-              data-cursor-size={50}
-            >
-              <BsGithub />
-            </Link>
-            <Link
-              className="link"
-              href="https://twitter.com/LeQuaddom"
-              target="_blank"
-              data-cursor-size={50}
-            >
-              <AiFillTwitterCircle />
-            </Link>
-            <Link className="link" href="/" data-cursor-size={50}>
-              <ImStackoverflow />
-            </Link>
-            {/* <Switch
-              data-cursor-size="60px"
-              checked={isDark}
-              color={"primary"}
-              onChange={(e) => setTheme(e.target.checked ? "dark" : "light")}
-              data-cursor-exlusion
-            /> */}
-          </div>
+          <div className="reachMe"></div>
         </div>
         <div className="contactEmail"></div>
       </div>
