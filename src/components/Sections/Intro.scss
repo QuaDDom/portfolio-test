@@ -29,6 +29,23 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      .splineModel {
+        filter: blur(25px);
+        opacity: 0;
+        animation: splineAppear 2s forwards linear;
+        animation-delay: 2s;
+      }
     }
+  }
+}
+
+@keyframes splineAppear {
+  from {
+    opacity: 0;
+    filter: blur(25px);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
   }
 }

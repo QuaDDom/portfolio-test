@@ -3,8 +3,7 @@ import { useTheme, Text } from "@nextui-org/react";
 import "./Intro.scss";
 import StaggerText from "../Text/StaggerText";
 import { Spacer } from "@nextui-org/react";
-
-const Spline = React.lazy(() => import("@splinetool/react-spline"));
+import Spline from "@splinetool/react-spline";
 
 export default function Intro() {
   return (
@@ -15,12 +14,12 @@ export default function Intro() {
           fontSize={110}
           fontFamily={"'Averta-Semibold', serif"}
           height={150}
-          duration={1}
-          stagger={80}
+          duration={1.2}
+          stagger={50}
         />
         <StaggerText
-          duration={1}
-          stagger={80}
+          duration={1.2}
+          stagger={50}
           text={"Mateo Leal"}
           fontSize={135}
           fontFamily={"'Averta-Semibold', serif"}
@@ -28,7 +27,7 @@ export default function Intro() {
           stroke
           data-cursor-size={90}
           data-cursor-exclusion
-          triggerAfter={1}
+          triggerAfter={500}
         />
         <Spacer y={2} />
         <StaggerText
@@ -36,21 +35,20 @@ export default function Intro() {
           fontSize={32}
           fontFamily={"'Averta-Semibold', serif"}
           height={50}
-          duration={1}
-          stagger={80}
-          triggerAfter={0.5}
+          duration={1.2}
+          stagger={50}
+          triggerAfter={1000}
         />
         <Spacer y={3.5} />
       </div>
       <div className="effect">
         <div className="element">
-          <Suspense fallback={<div>Loading...</div>}>
-            <Spline
-              scene="https://prod.spline.design/jUdwEAQTq3-I644Z/scene.splinecode"
-              width={500}
-              height={500}
-            />
-          </Suspense>
+          <Spline
+            scene="https://prod.spline.design/jUdwEAQTq3-I644Z/scene.splinecode"
+            width={500}
+            height={500}
+            className="splineModel"
+          />
         </div>
       </div>
     </div>
